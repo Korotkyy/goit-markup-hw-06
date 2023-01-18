@@ -808,7 +808,7 @@ ul {
 }
 .modal-title {
 font-size: 16px;
-font-weight: 500px;
+font-weight: 500;
 color: #2E2F42;
 text-align: center;
 line-height: 1.5;
@@ -834,10 +834,15 @@ outline: transparent;
 .input-text {
     display: inline-block;
     font-size: 12px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 1.16;
     color: #8E8F99;
     letter-spacing: 0.01em;
     margin-top: 8px;
     margin-bottom: 4px;
+}
+
+.btn-send-wrap {
+    display: flex;
+    justify-content: center;
 }
